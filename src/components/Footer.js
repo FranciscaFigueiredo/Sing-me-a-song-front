@@ -10,7 +10,7 @@ import { Line } from "../styles/TitleStyle";
 export default function Footer() {
     const { currentSong } = useContext(SongContext);
 
-    let validationURL = currentSong?.youtube_link.match(/(http(s)?:\/\/.)?(www\.)?(youtube\.)?(com\/watch)([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g);
+    let validationURL = currentSong?.youtube_link.match(/(http(s)?:\/\/.)?(www\.)?(youtube\.)?(com\/watch)([-a-zA-Z0-9@:%_+.~#?&//=]*)/g);
 
     return (
         <FooterContainer>
