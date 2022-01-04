@@ -82,8 +82,8 @@ const LineContainer = styled.div`
 `;
 
 const SongsContainer = styled.div`
-    width: 90vw;
-    height: 20px;
+    width: 95vw;
+    height: auto;
 
     display: flex;
     flex-wrap: wrap;
@@ -93,10 +93,51 @@ const SongsContainer = styled.div`
     margin: 10px auto 140px;
 `;
 
+const Container = styled.div`
+    width: 95vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin: 10px auto 140px;
+
+    h2 {
+        margin-left: 2.5vw;
+    }
+`;
+
+const SongCardContainer = styled.div`
+    width: 42vw;
+    height: 38vw;
+
+    background-color: #383838;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px auto;
+    padding: 10px;
+
+    h4 {
+        font-size: 16px;
+        font-weight: normal;
+
+        margin: 5px auto;
+    }
+`;
+
 export {
     ContainerPage,
     ContainerContent,
     HeaderContainer,
     LineContainer,
     SongsContainer,
+    Container,
+    SongCardContainer
 };
