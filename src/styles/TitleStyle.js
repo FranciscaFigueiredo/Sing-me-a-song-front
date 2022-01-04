@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Title1 = styled.div`
-    width: 50vw;
+    width: 200px;
     height: 40px;
 
     color: #fab23d;
@@ -14,7 +14,7 @@ const Title1 = styled.div`
 `;
 
 const Title2 = styled.div`
-    width: 50vw;
+    width: 200px;
     height: 40px;
     
     color: #ffc812;
@@ -27,7 +27,7 @@ const Title2 = styled.div`
 `;
 
 const Line = styled.div`
-    width: 40vw;
+    width: 43vw;
     height: 2px;
     
     background-color: #ffc812;
