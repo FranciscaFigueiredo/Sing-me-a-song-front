@@ -26,6 +26,32 @@ const ContainerPage = styled.div`
     }
 `;
 
+const ContainerContent = styled.div`
+    max-width: 95vw;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 160px auto 0;
+
+    overflow: 0;
+
+    form {
+        text-align: center;
+        margin: 20px auto 0;
+    }
+
+    a {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 21px;
+    }
+`;
+
 const HeaderContainer = styled.div`
     width: 100vw;
     height: 120px;
@@ -55,8 +81,22 @@ const LineContainer = styled.div`
     margin-top: 10px;
 `;
 
+const SongsContainer = styled.div`
+    width: 90vw;
+    height: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px auto 140px;
+`;
+
 export {
     ContainerPage,
+    ContainerContent,
     HeaderContainer,
     LineContainer,
+    SongsContainer,
 };
