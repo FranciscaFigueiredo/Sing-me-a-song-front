@@ -132,6 +132,24 @@ const SongCardContainer = styled.div`
     }
 `;
 
+const FooterContainer = styled.div`
+    width: 100vw;
+    height: 140px;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+`;
+
 export {
     ContainerPage,
     ContainerContent,
@@ -139,5 +157,6 @@ export {
     LineContainer,
     SongsContainer,
     Container,
-    SongCardContainer
+    SongCardContainer,
+    FooterContainer,
 };
